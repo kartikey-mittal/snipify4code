@@ -140,7 +140,7 @@ const TeamWork = () => {
                         }}
                         onClick={() => {
                             // Open the GitHub repository URL in a new tab
-                            window.open('https://github.com/kartikey-mittal/snipify/', '_blank');
+                            window.open('https://github.com/kartikey-mittal/snipify-project', '_blank');
                         }}
                     >
                         Github Repository 🚀
