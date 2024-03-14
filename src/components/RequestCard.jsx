@@ -33,7 +33,7 @@ const RequestCard = ({ imageurl, question, skill, name, documentId }) => {
     const handleConnect = async () => {
         // Construct the target route with the dynamic document ID
        // const targetRoute = `/skilled/connect/${documentId}`;
-        const targetRoute = `/skilled/face/${documentId}`;
+        const targetRoute = `/skilled/connect/${documentId}`;
         // Update the "Status" attribute in the "Requests" collection
         const requestDocRef = doc(db, 'Requests', documentId);
         try {
@@ -47,7 +47,8 @@ const RequestCard = ({ imageurl, question, skill, name, documentId }) => {
 
             // Use navigate directly
             //navigate(`/skilled/connect/${documentId}`);
-            navigate(`/skilled/face/${documentId}`);
+            navigate(`/skilled/connect/${documentId}`);
+            
         } catch (error) {
             console.error('Error updating status:', error);
         }

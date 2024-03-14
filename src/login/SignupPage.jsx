@@ -67,7 +67,8 @@ const SignUpPage = () => {
           setTimeout(() => {
             // Redirect to skilled profile page with the document ID
            // navigate(`/skilled/profile/${docRef.id}`);
-            navigate(`/signup/face/${docRef.id}`);
+            navigate(`/skilled/profile/${docRef.id}`);
+           
           }, 1000); // You can adjust the delay as needed
         }
       }
