@@ -5,7 +5,7 @@
 Snipify is a dynamic web platform designed to cater to the needs of school and college students seeking real-time assistance in coding and development. Our user-friendly interface bridges the gap between learners and experienced tutors, providing a 24X7 support system
 ![Logo](https://raw.githubusercontent.com/kartikey-mittal/snipify/main/snipify-1.png)
 
-## [Deploy Link🚀](https://snipify.pages.dev/)
+## [Deploy Link🚀](https://snipify-project.pages.dev/)
 
 
     
