@@ -46,7 +46,7 @@ const Navbar1 = () => {
   const handleSessionsClick = () => {
     setActiveButton('pink');
     // Navigate to 'skilled/sessions'
-    navigate('/tips');
+    navigate('/ai-genie');
   };
 
   return (
@@ -65,9 +65,11 @@ const Navbar1 = () => {
         style={{...buttonStyle('white'), borderBottomColor: activeButton === 'pink' ? '#5813EA' : 'transparent'}}
         onClick={() => { setActiveButton('pink'); handleSessionsClick(); }}
       >
-        CodeByte
+        AI Genie
       </div>
       
+      
+
       <div 
         style={{backgroundColor:'#D9D9D9',borderRadius:'100%',height:40,width:40,marginRight:20, borderBottomColor: activeButton === 'orange' ? 'black' : 'transparent',cursor:'pointer'}}
         

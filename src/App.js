@@ -33,6 +33,7 @@ import SkilledStats from "./skilled/SkilledStats";
 // just for fun
 import EditorPage from "./code_editor/EditorPage";
 import CHome from "./code_editor/CHome";
+import Demo from "./learner/GenieInterview";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
         <Route path="/skilled/face/:id" element={<CheckFace/>}   />
         <Route path="/question/:id" element={<Question/>}   />
         <Route path="/tips" element={<Tips/>}   />
+        <Route path="/AI-Genie" element={<Demo/>}   />
       
 
       </Routes>

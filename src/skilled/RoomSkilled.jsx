@@ -9,8 +9,8 @@ const HomeSkilledConnect = () => {
   useEffect(() => {
     const SkilledName = localStorage.getItem('SkilledName');
     if (SkilledName) {
-      const appID = 311553807;
-      const serverSecret = "5cb9b845b7ded72524e4393cf58afbd6";
+      const appID = 1470061690;
+      const serverSecret = "c5da366453ca9e38fa5431755fdd84e6";
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomId, Date.now().toString(), SkilledName);
 
       const zp = ZegoUIKitPrebuilt.create(kitToken);
